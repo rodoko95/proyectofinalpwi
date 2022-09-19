@@ -1,0 +1,22 @@
+{
+  "name": "proyectofinalhandlebarsheroku",
+  "version": "1.0.0",
+  "description": "Mi sitio web final portado a un motor de plantilla, en este caso Handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "author": "Rodrigo E. Arce",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7"
+  }
+}

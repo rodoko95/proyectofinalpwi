@@ -1,0 +1,39 @@
+<h1>Hola señor del futuro, bienvenido de vuelta a los 90's...</h1>
+<img src="/img/welcome.gif" alt="Bievenido"><br>
+
+<h2>Presentado por Rodobarino y Banco Mar, te damos la bienvenida a 1998 de vuelta, esta pagina es una demostracion <br>
+de como las personas hacian sus paginas web en los 90's y dependiendo del contenido estas tenian hasta mas paginas que este sitio <br>
+Este sitio esta escrito en HTML y CSS pero fue portado al motor de plantilla Handlebars que se maneja gracias al lenguaje JavaScript</h2>
+<img src="/img/lain.jpg" alt="" width="688" height="430">
+<hr>
+           <h2>
+                Viajeros registrados
+            </h2>
+    </div>
+
+   <div class="container">
+   
+    <table class="table table-dark">
+        <thead>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>E-Mail</th>
+            <th>Edad</th>
+        </thead>
+        <tbody>
+            {{#each results}}
+            <tr>
+                {{!-- Para traer datos de la BS --}}
+                <td>{{idUsuarios}}</td>
+                <td>{{nombre}}</td>
+                <td>{{email}}</td>
+                <td>{{edad}}</td>
+            </tr>
+            {{/each}}
+
+        </tbody>
+    </table>
+</div>
+
+
+<hr>
